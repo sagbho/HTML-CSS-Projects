@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="keywords" content="lawn, care, landscaping, mowing">
+<meta name="description" content="The Bhola Company - We care for your lawn.">
+<title>The Bhola Company - Lawn Care Service | Sonoma, CA</title>
+<link href="bhola_styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<header> 
+  <!--Main Section-->
+  <div class="container"> <a href="index.html"><img src="assets/bholaco.png" width="500" height="125" alt="The Bhola Company Logo"/></a>
+    <nav>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="services.html">SERVICES</a></li>
+        <li><a href="photos.html">PHOTOS</a></li>
+        <li><a href="about_us.html">ABOUT</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </nav>
+  </div>
+  <a name="contactsection"></a>
+  <div class="contact" id="contact">
+    <h2 class="contact_header">CONTACT</h2>
+    <p class="contactsub">FILL THE FORM DOWN BELOW <br>
+      TO SCHEDULE A LAWN CARE PROGRAM</p>
+    <form class="formcontact" name="feedback" method="post">
+      <table class="center">
+        <tbody>
+          <tr>
+            <td class="formcontact"><input name="required" type="hidden" id="required" value="first_name, last_name, email">
+              First Name<strong>*</strong></td>
+            <td><input name="first_name" type="text" id="first_name" size="40" maxlength="100"></td>
+          </tr>
+          <tr>
+            <td class="formcontact">Last Name<strong>*</strong></td>
+            <td><input name="last_name" type="text" id="last_name" size="40" maxlength="100"></td>
+          </tr>
+          <tr>
+            <td class="formcontact">Email<strong>*</strong></td>
+            <td><input name="email" type="text" id="email" size="40" maxlength="100"></td>
+          </tr>
+          <tr>
+            <td class="formcontact">Address<strong>*</strong></td>
+            <td><input name="address" type="text" id="address" size="40" maxlength="100"></td>
+          </tr>
+          <tr>
+            <td class="formcontact">I am interested in information about:</td>
+            <td><label>
+              <label>
+                <input type="checkbox" name="brochures" value="residental" id="brochures_2">
+                Residental</label>
+              <br>
+              <label>
+                <input type="checkbox" name="brochures" value="commericial" id="brochures_3">
+                Commercial</label>
+              <br>
+              <input type="checkbox" name="brochures" value="lawncare" id="brochures_0">
+              Lawn Care
+              </label>
+              <br>
+              <label>
+                <input type="checkbox" name="brochures" value="landscaping" id="brochures_1">
+                Landscaping</label>
+              <br></td>
+          <tr>
+            <td class="formcontact">I learned about you from:</td>
+            <td><select name="reference" class="intro_paragraph" id="reference" form="feedback">
+                <option value="none">Selecting from list</option>
+                <option value="friend">From a friend</option>
+                <option value="internet">Internet search</option>
+                <option value="magazine">Magazine ad</option>
+                <option value="tv">Television ad</option>
+              </select></td>
+          </tr>
+          <tr>
+            <td class="formcontact"><label>Comments or Questions?</label>
+              &nbsp;</td>
+            <td><textarea name="comments" cols="40" rows="4" id="comments"></textarea></td>
+          </tr>
+          <tr>
+            <td rowspan="2" class="formcontact"><strong>*Required fields</strong></td>
+            <td><input name="submit" type="submit" class="feature_item" id="submit" value="Submit">
+              <input name="reset" type="reset" class="feature_item" id="reset" value="Reset"></td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+          </tr>
+          
+        </tbody>
+      </table>
+    </form>
+  </div>
+</header>
+</body>
+</html>

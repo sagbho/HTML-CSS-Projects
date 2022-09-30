@@ -1,0 +1,595 @@
+@charset "utf-8";
+/*Main Section*/
+.logo img {
+  max-width: none;
+}
+body {
+  margin: 0;
+  background-image: url(assets/greengrass.jpg);
+  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+  font-weight: 400;
+  width: 100%;
+}
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+header {
+  width: 100%;
+}
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+.indexabout {
+  text-align: center;
+  color: #57BA1C;
+  margin-top: 4px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  line-height: -10;
+}
+.indexabout a:hover {
+  color: #57BA1C
+}
+.indexabout a.active {
+  color: #57BA1C
+}
+.indexabout a {
+  text-decoration: none;
+}
+nav {
+  float: right;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 90px;
+}
+nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+nav a:hover {
+  color: #57BA1C
+}
+nav li a.active {
+  color: #57BA1C
+}
+.body-text {
+  font-size: 70px;
+  margin: 0px;
+  font-weight: 500;
+  color: white;
+  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+  text-align: center;
+}
+.slogan {
+  font-size: 30px;
+  text-align: center;
+}
+.toptext {
+  text-align: center;
+  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+  font-weight: lighter;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.toptext a {
+  text-decoration: none;
+}
+/* Lawn Care Section */
+.lawn {
+  background-color: white;
+  padding-top: 25px;
+  padding-bottom: 0px;
+  width: 100%;
+}
+.lawncare_header {
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 22px;
+  text-align: center;
+  color: #429A31;
+  font-size: 70px;
+}
+.lawncare_header a {
+  text-decoration: none;
+}
+.taglinelawncare {
+  text-align: center;
+  color: black;
+  margin-top: 4px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.lawnphoto {
+  width: 100%;
+}
+/* Landscaping Section */
+.scape {
+  background-color: white;
+  padding-top: 25px;
+  padding-bottom: 0px;
+  width: 100%;
+}
+.landscape_header {
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 22px;
+  text-align: center;
+  color: #429A31;
+  font-size: 70px;
+}
+.landscape_header a {
+  text-decoration: none;
+}
+.taglinelandscape {
+  text-align: center;
+  color: black;
+  margin-top: 4px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.landscapingphoto {
+  width: 100%;
+}
+/*Contact info Section*/
+.contactinfo {
+  background-color: white;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 100%;
+}
+.contactinfo_header {
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 22px;
+  text-align: center;
+  color: #429A31;
+  font-size: 70px;
+}
+.taglinecontactinfo {
+  text-align: center;
+  color: black;
+  margin-top: 4px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.contactsub {
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 42px;
+  text-align: center;
+  font-weight: lighter;
+  color: #429A31;
+  font-size: 35px;
+}
+/*About Us Page*/
+.about {
+  background-color: white;
+  padding-top: 25px;
+  padding-bottom: 100px;
+  width: 100%;
+}
+.aboutus_header {
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 22px;
+  text-align: center;
+  color: #429A31;
+  font-size: 70px;
+}
+.taglineabout {
+  text-align: center;
+  color: #429A31;
+  text-decoration: none;
+}
+.taglineabout a {
+  text-decoration: none;
+}
+.tagline a:link {
+  color: #429A31;
+}
+.taglineabout a:visited {
+  color: #429A31;
+}
+/*Photo Page*/
+.photo {
+  background-color: white;
+  padding-top: 25px;
+  padding-bottom: 100px;
+  width: 100%;
+}
+.photo_header {
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 22px;
+  text-align: center;
+  color: #429A31;
+  font-size: 70px;
+}
+.taglinephoto {
+  text-align: center;
+  color: black;
+  margin-top: 4px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+/*Contact Page*/
+.contact {
+  background-color: white;
+  padding-top: 25px;
+  padding-bottom: 100px;
+  width: 100%;
+}
+.contact_header {
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 22px;
+  text-align: center;
+  color: #429A31;
+  font-size: 70px;
+}
+.taglinecontact {
+  text-align: center;
+  color: black;
+  margin-top: 4px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.formcontact {
+  font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+  width: 100%;
+}
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+/*Service Page*/
+.service {
+  background-color: white;
+  padding-top: 25px;
+  padding-bottom: 100px;
+  width: 100%;
+}
+.service_header {
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 22px;
+  text-align: center;
+  color: #429A31;
+  font-size: 70px;
+}
+.taglineservice {
+  text-align: center;
+  color: black;
+  margin-top: 4px;
+  font-weight: lighter;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.servicesub {
+  padding-left: 10px;
+  padding-right: 10px;
+  line-height: 22px;
+  text-align: center;
+  font-weight: lighter;
+  color: #429A31;
+  font-size: 35px;
+}
+.twoimages {
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+.twoimages p {
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+.servicetext {
+  font-style: normal;
+  font-weight: lighter;
+  text-align: center;
+  text-decoration: none;
+  font-size: large;
+  vertical-align: top;
+}
+.list {
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+  font-weight: lighter;
+  text-transform: uppercase;
+  display: table;
+  margin: auto;
+  padding: 0;
+}
+ul li {
+  padding: 2px 5px;
+  display: block;
+}
+@media screen and (min-width:481px) {
+  /*Main Section*/
+  .logo img {
+    max-width: none;
+  }
+  body {
+    margin: 0;
+    background-image: url(assets/greengrass.jpg);
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+    font-weight: 400;
+    width: 100%;
+  }
+  .container {
+    width: 95%;
+    margin: 0 auto;
+  }
+  header {
+    width: 100%;
+  }
+  header::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+  .logo {
+    float: left;
+    padding: 10px 0;
+  }
+  nav {
+    float: right;
+  }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 90px;
+  }
+  nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+  }
+  nav a:hover {
+    color: #57BA1C
+  }
+  nav li a.active {
+    color: #57BA1C
+  }
+  .body-text {
+    font-size: 70px;
+    margin: 0px;
+    font-weight: 500;
+    color: white;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+    text-align: center;
+  }
+  .slogan {
+    font-size: 30px;
+    text-align: center;
+  }
+  /* Lawn Care Section */
+  .lawn {
+    background-color: white;
+    padding-top: 25px;
+    padding-bottom: 0px;
+    width: 100%;
+  }
+  .lawncare_header {
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 22px;
+    text-align: center;
+    color: #429A31;
+    font-size: 70px;
+  }
+  .lawncare_header a {
+    text-decoration: none;
+  }
+  .lawncare_header a:visited {
+    color: #429A31;
+  }
+  .taglinelawncare {
+    text-align: center;
+    color: black;
+    margin-top: 4px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+  }
+  .lawnphoto {
+    width: 100%;
+  }
+  /* Landscaping Section */
+  .scape {
+    background-color: white;
+    padding-top: 25px;
+    padding-bottom: 0px;
+    width: 100%;
+  }
+  .landscape_header {
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 22px;
+    text-align: center;
+    color: #429A31;
+    font-size: 70px;
+  }
+  .landscape_header a {
+    text-decoration: none;
+  }
+  .landscape_header a:visited {
+    color: #429A31;
+  }
+  .taglinelandscape {
+    text-align: center;
+    color: black;
+    margin-top: 4px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .landscapingphoto {
+    width: 100%;
+  }
+  /*About Us Page*/
+  .about {
+    background-color: white;
+    padding-top: 25px;
+    padding-bottom: 100px;
+    width: 100%;
+  }
+  .aboutus_header {
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 22px;
+    text-align: center;
+    color: #429A31;
+    font-size: 70px;
+  }
+  .taglineabout {
+    text-align: center;
+    color: black;
+    margin-top: 4px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .taglineabout a {
+    text-decoration: none;
+  }
+  .aboutphoto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #abouttable {
+    border: 0px solid transparent;
+  }
+  /*Photo Page*/
+  .photo {
+    background-color: white;
+    padding-top: 25px;
+    padding-bottom: 100px;
+    width: 100%;
+  }
+  .photo_header {
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 22px;
+    text-align: center;
+    color: #429A31;
+    font-size: 70px;
+  }
+  .taglinephoto {
+    text-align: center;
+    color: black;
+    margin-top: 4px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  /*Contact Page*/
+  .contact {
+    background-color: white;
+    padding-top: 25px;
+    padding-bottom: 100px;
+    width: 100%;
+  }
+  .contact_header {
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 22px;
+    text-align: center;
+    color: #429A31;
+    font-size: 70px;
+  }
+  .taglinecontact {
+    text-align: center;
+    color: black;
+    margin-top: 4px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .formcontact {
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    font-weight: lighter;
+    display: inline-block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /*Service Page*/
+  .service {
+    background-color: white;
+    padding-top: 25px;
+    padding-bottom: 100px;
+    width: 100%;
+  }
+  .service_header {
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 22px;
+    text-align: center;
+    color: #429A31;
+    font-size: 70px;
+  }
+  .taglineservice {
+    text-align: center;
+    color: black;
+    margin-top: 4px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .servicephoto {
+    margin-left: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    border: thin solid #000000;
+    display: block;
+  }
+  .servicetext {
+    font-style: normal;
+    font-weight: lighter;
+    text-align: center;
+    text-decoration: none;
+    font-size: large;
+    vertical-align: top;
+  }
+}
